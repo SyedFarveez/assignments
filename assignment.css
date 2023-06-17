@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.bgm {
+    background-image: url("https://as2.ftcdn.net/v2/jpg/02/55/17/43/1000_F_255174366_ojDuATz84e5h7lIlxh2moUJa9Kpd5wKk.jpg");
+    background-size: cover;
+    height: 300px;
+}
+
+.prof {
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #ffffff;
+}
+
+.botn {
+    color: #ffffff;
+    background-color: transparent;
+    height: 25px;
+    width: 150px;
+    font-weight: 500;
+
+}
+
+.addfrnd {
+    height: 38px;
+    width: 128px;
+    border-radius: 18px;
+    text-align: center;
+    margin: 6px;
+    padding: 5px;
+
+}
+
+.flw {
+    font-weight: 500;
+}
+
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+h3 {
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+}
+
+.feedcontainer {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.post {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.post-header {
+    display: flex;
+    align-items: center;
+}
+
+.post-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #ccc;
+    margin-right: 10px;
+}
+
+.post-info {
+    flex-grow: 1;
+}
+
+.post-info h3 {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.post-content {
+    margin-top: 10px;
+}
+
+.post-actions {
+    margin-top: 10px;
+}
+
+.post-actions button {
+    background-color: #ccc;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.post-actions button:hover {
+    background-color: #999;
+}
+
+.post-actions button:active {
+    background-color: #666;
+}
+
+.post-comments {
+    margin-top: 10px;
+    padding-left: 50px;
+}
+
+.post-comments p {
+    margin-bottom: 5px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.add-comment {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.add-comment input[type="text"] {
+    flex-grow: 1;
+    padding: 5px;
+    margin-right: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.add-comment button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.add-comment button:hover {
+    background-color: #666;
+}
+
+/* intro page third one*/
+
+.bg-colour {
+    background-color: #131413;
+    width: 100%;
+    background-size: cover;
+}
+
+.nnnn {
+    font-size: 5px;
+}
+
+.intro-head {
+    color: #ffffff;
+    font-size: 15px;
+    margin-top: 10px;
+
+}
+
+.bio-butt {
+    background-color: #7d8077;
+    color: #ffffff;
+    height: 40px;
+    width: 250px;
+    border-radius: 8px;
+    font-weight: 500;
+}
+
+/* Main container styles */
+.intro-container {
+    max-width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #000;
+    color: #fff;
+}
+
+.intro {
+    margin-bottom: 20px;
+}
+
+.intro i {
+    margin-right: 10px;
+}
+
+.bio-item {
+    margin-bottom: 10px;
+}
+
+/* Friend page style */
+
+.wtfhead {
+    font-size: 18px;
+    font-family: "Serif";
+    padding: 10px;
+    font-weight: bold;
+}
+
+.profile {
+    height: 80px;
+    width: 80px;
+    border-radius: 40px;
+}
+
+.buttn {
+    color: #3da633;
+    background-color: transparent;
+    border-width: 0px;
+}
+
+.frndname {
+    font-weight: 600;
+    color: #5770b3;
+}
+
+/* About me Style*/
+
+.container {
+    max-width: 100%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    ;
+}
+
+.about-hd {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.about-para {
+    line-height: 1.5;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.profile-picture {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 0 auto 20px;
+    display: block;
+}
+
+.contact-info {
+    margin-bottom: 20px;
+}
+
+.contact-info span {
+    display: inline-block;
+    margin-right: 10px;
+    color: #333;
+    font-weight: bold;
+}
+
+.contact-info a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}

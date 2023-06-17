@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="bgm d-flex flex-column justify-content-end">
+        <div class="pl-3 pb-2">
+            <img src="https://img.freepik.com/free-photo/smiling-businessman-face-portrait-wearing-suit_53876-148138.jpg?w=740&t=st=1686981741~exp=1686982341~hmac=6f7774769fb3228df2e6e1e108f97afbec6bc56a6110131e7c15489c746509e9" class="prof" />
+            <a href="#timeline-page" class="botn">Timeline</a>
+            <a href="#about-page" class="botn">About</a>
+            <a href="#home-page" class="botn">Album</a>
+            <a href="#friend-page" class="botn">Friends</a>
+            <button class="btn btn-primary addfrnd">Add Friend</button>
+        </div>
+    </div>
+
+
+    <!--..NEWS FEED - - - SECOND PAGE.-->
+    <div id="home-page">
+        <div class="feedcontainer">
+            <div class="post">
+                <div class="post-header">
+                    <div class="post-avatar">
+                        <img src="https://img.freepik.com/free-photo/close-up-attractive-young-woman_23-2148204689.jpg?w=360&t=st=1686845932~exp=1686846532~hmac=b18ddd5c29cf88b4098de040f643e3c9b7acd292846739b975d5428630e4cf14" class="post-avatar" />
+                    </div>
+                    <div class="post-info">
+                        <h3>Diane Amber</h3>
+                        <p>June 12, 2023</p>
+                    </div>
+                </div>
+                <div class="post-content">
+                    <img src="https://img.freepik.com/free-photo/smiling-pretty-woman-posing-camera-park_1262-19062.jpg?w=360&t=st=1686843730~exp=1686844330~hmac=8e419f303683bee954d82241f6a2245ce3eaaa39db42e3b69843700d4589a2fa" alt="Photo Post" width="100%">
+                </div>
+                <div class="post-actions">
+                    <button class="likeBtn">Like</button>
+                    <button class="dislikeBtn">Dislike</button>
+                </div>
+                <div class="post-comments">
+                    <p>Comments:</p>
+                    <p>"Beautiful photo! The composition is perfect, and it really captures the moment."</p>
+                    <p>"This picture just made my day. Thanks for sharing such a lovely moment!"</p>
+                    <p>"You have a great eye for photography. This picture is stunning!"</p>
+                    <p>No comments yet.</p>
+                </div>
+                <div class="add-comment">
+                    <input type="text" placeholder="Add a comment" />
+                    <button class="commentBtn">Post</button>
+                </div>
+            </div>
+
+            <div class="post">
+                <div class="post-header">
+                    <div class="post-avatar">
+                        <img src="https://img.freepik.com/free-photo/young-bearded-man-with-striped-shirt_273609-5677.jpg?w=360&t=st=1686846035~exp=1686846635~hmac=07514a61e8f9b3defcc02fd66e2edd273647bea13af25dc44fc2f89af3c04fe4" class="post-avatar" />
+                    </div>
+                    <div class="post-info">
+                        <h3>John Smith</h3>
+                        <p>June 10, 2023</p>
+                    </div>
+                </div>
+                <div class="post-content">
+                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/SMKPKGW083c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <div class="post-actions">
+                    <button class="likeBtn">Like</button>
+                    <button class="dislikeBtn">Dislike</button>
+                </div>
+                <div class="post-comments">
+                    <p>Comments:</p>
+                    <p>"This looks like an amazing adventure! I'm so jealous. Can't wait to hear all about it."</p>
+                    <p>"You always find the most interesting places. I'm inspired to go exploring now!"</p>
+                    <p>No!!!</p>
+                </div>
+                <div class="add-comment">
+                    <input type="text" placeholder="Add a comment" />
+                    <button class="commentBtn">Post</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--..NEWS FEED - - - THIRD PAGE.-->
+
+    <div id="timeline-page">
+        <div class="intro-container">
+
+            <div class="bio-item">
+                <button class="bio-butt">Add bio</button>
+            </div>
+
+            <div class="bio-item">
+                <i class="fas fa-briefcase"></i>
+                Former Steering Committee Member at Prithvi, IIT Kharagpur
+            </div>
+
+            <div class="bio-item">
+                <i class="fas fa-briefcase"></i>
+                Former Summer Internship at Schlumberger
+            </div>
+
+            <div class="bio-item">
+                <i class="fas fa-briefcase"></i>
+                Former Steering Committee Member (Tech Team) at Spring Fest, IIT Kharagpur
+            </div>
+
+            <div class="bio-item">
+                <i class="fas fa-briefcase"></i>
+                Former Student Mentor at Student Welfare Group - SWG, IIT Kharagpur
+            </div>
+
+            <div class="bio-item">
+                <i class="fas fa-briefcase"></i>
+                Former Web Coordinator at Career Development Centre, IIT Kharagpur
+            </div>
+
+            <div class="bio-item">
+                <i class="fas fa-briefcase"></i>
+                Former Summer Internship at Cairn Oil and Gas, Vedanta Limited
+            </div>
+
+            <div class="bio-item">
+                <i class="fas fa-briefcase"></i>
+                Former Summer Internship at ONGC Limited
+            </div>
+
+            <div class="bio-item">
+                <i class="fas fa-graduation-cap"></i>
+                Studied at IIT Kharagpur
+            </div>
+
+            <div class="bio-item">
+                <i class="fas fa-school"></i>
+                Went to Delhi Public School, Jaipur
+            </div>
+
+            <div class="bio-item">
+                <i class="fas fa-school"></i>
+                Went to Subodh Public School, Airport
+            </div>
+
+            <div class="bio-item">
+                <i class="fas fa-home"></i>
+                Lives in Mumbai, Maharashtra
+            </div>
+
+            <div class="bio-item">
+                <i class="fas fa-map-marker-alt"></i>
+                From Jaipur, Rajsthan
+            </div>
+        </div>
+    </div>
+
+
+    <!--..FRIEND LIST  - - - FOURTH PAGE.-->
+    <div id="friend-page">
+        <div class="ml-3">
+            <h1 class="wtfhead">Who to Follow</h1>
+            <div class="d-flex flex-row">
+                <div class="mr-3">
+                    <img src="https://img.freepik.com/free-photo/close-up-shot-friendly-looking-elegant-young-african-american-female-with-straight-dark-straight-hair-having-happy-joyful-look-posing_344912-1016.jpg?w=360&t=st=1686828943~exp=1686829543~hmac=75af1c9c3b3fdd8c44391e74c9f203767dd8b05b5d072b999d3a5e67a58811aa" class="profile">
+                </div>
+                <div>
+                    <p class="frndname">Diana Amber</p>
+                    <button class="buttn">Add Friend</button>
+                </div>
+            </div>
+
+            <div class="d-flex flex-row mt-3">
+                <div class="mr-3">
+                    <img src="https://img.freepik.com/free-photo/young-bearded-man-with-striped-shirt_273609-5677.jpg?w=360&t=st=1686828780~exp=1686829380~hmac=6383c1f8cb832650dda66061f2c01488b46617b83da441814841c3b653a9ff1f" class="profile">
+                </div>
+                <div>
+                    <p class="frndname">Cris Haris</p>
+                    <button class="buttn">Add Friend</button>
+                </div>
+            </div>
+
+            <div class="d-flex flex-row mt-3">
+                <div class="mr-3">
+                    <img src="https://img.freepik.com/free-photo/indian-man-smiling-mockup-psd-cheerful-expression-closeup-portra_53876-143269.jpg?size=626&ext=jpg&ga=GA1.1.1369878087.1664358486&semt=ais" class="profile">
+                </div>
+                <div>
+                    <p class="frndname">Brian Walton</p>
+                    <button class="buttn">Add Friend</button>
+                </div>
+            </div>
+
+            <div class="d-flex flex-row mt-3">
+                <div class="mr-3">
+                    <img src="https://img.freepik.com/free-photo/close-up-attractive-young-woman_23-2148204689.jpg?w=360&t=st=1686829118~exp=1686829718~hmac=9a67e2d2cdcd81b8de638ef7ce5b7cbb86a0184efa90f6460ad95a610fc871bf" class="profile">
+                </div>
+                <div>
+                    <p class="frndname">Olivia Steward</p>
+                    <button class="buttn">Add Friend</button>
+                </div>
+            </div>
+
+            <div class="d-flex flex-row mt-3">
+                <div class="mr-3">
+                    <img src="https://img.freepik.com/free-photo/portrait-young-woman-taking-selfies-while-standing-outdoors-street_58466-15606.jpg?w=360&t=st=1686829272~exp=1686829872~hmac=91029ceba130fb5a11fa9424e8473837f15561cf115e84c90c6f843be4e65705" class="profile">
+                </div>
+                <div>
+                    <p class="frndname">Sophia Page</p>
+                    <button class="buttn">Add Friend</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--..ABOUT ME SECTION  - - - FIFTH PAGE.-->
+
+    <div id="about-page">
+        <div class="container ">
+            <h1 class="about-hd">About Me</h1>
+            <img class="profile-picture" src="https://img.freepik.com/free-photo/cheerful-indian-businessman-smiling-closeup-portrait-jobs-career-campaign_53876-129417.jpg?w=740&t=st=1686985370~exp=1686985970~hmac=d5de68f0925431bf13cc26ece4ee24f033d4f52f109876cd22906409fb2e0966" alt="Profile Picture">
+            <p class="about-para">Welcome to my profile! I'm a traveler, photographer, and adventure enthusiast. Join me as I capture the beauty of the world through my lens and share my incredible experiences.</p>
+            <p class="about-para">Follow me on this journey as I explore stunning landscapes, vibrant cultures, and extraordinary moments. Through my photos, I hope to inspire and evoke the wanderlust within you.</p>
+            <p class="about-para">Photography is not just a hobby for me; it's a way of expressing my perspective and capturing fleeting moments that tell stories. I believe that every photo has a unique story to tell, and I strive to convey those stories through my work.</p>
+            <p class="about-para">Feel free to connect with me and share your own adventures. Let's explore the world together, one photo at a time!</p>
+            <div class="contact-info">
+                <span>Email:</span> <a href="syedfarveez11@gmail.com">syedfarveez11@gmail.com</a><br>
+                <span>Phone:</span> <a href="9600211007">+91 - 9600211007</a><br>
+                <span>LinkedIn:</span> <a href="https://www.linkedin.com/in/syed-farveez-b23633204">syedfarveez-linkedin.com</a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const buttons = document.querySelectorAll('.buttn');
+
+        buttons.forEach(button => {
+            button.addEventListener('click', () => {
+                if (button.textContent === 'Add Friend') {
+                    button.textContent = 'Added';
+                }
+            });
+        });
+
+        const names = document.querySelectorAll('.name');
+
+        names.forEach(name => {
+            name.addEventListener('click', () => {
+                // Replace the URL below with the actual profile page URL of the clicked person
+                window.location.href = 'https://example.com/profiles/' + name.textContent.toLowerCase().replace(' ', '_');
+            });
+        });
+    </script>
+</body>
+
+</html>
